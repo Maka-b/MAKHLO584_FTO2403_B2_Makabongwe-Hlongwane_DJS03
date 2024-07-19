@@ -10,8 +10,6 @@ let page = 1
 let matches = library.books
 
 
-const starting = document.createDocumentFragment()
-
 function createBookElement({ author, id, image, title }) {
     const element = document.createElement('button')
     element.classList = 'preview'
